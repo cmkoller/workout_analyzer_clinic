@@ -2,7 +2,6 @@ require_relative 'workout'
 require 'csv'
 require 'table_print'
 
-# create a hash of workout info from CSV
 def load_workout_data(filename)
   workouts = []
 
